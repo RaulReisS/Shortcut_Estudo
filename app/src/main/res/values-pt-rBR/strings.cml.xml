@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shortcut_short_label">Atalho P</string>
+
+    <string name="shortcut_long_label">Atalho Gde</string>
+
+    <string name="message">Menssagem</string>
+
+    <string name="shortcut_message">Exibir conteúdo personalizado</string>
+
+</resources>

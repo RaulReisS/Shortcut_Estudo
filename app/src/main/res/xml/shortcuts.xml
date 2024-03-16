@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    Campo obrigatório: ID, ShortLabel
+    Campo opcional: LongLabel, DisableMessage, enabled, icon
+
+    Precisa ser uma string literal no ID
+    Shortlabel precisa ter no máximo 10 caracteres
+    Longlabel vai ser exibido caso o smartphone tenha espaço, com no máximo 25 caracteres
+     -->
+    <shortcut
+        android:shortcutId="compose"
+        android:shortcutShortLabel="@string/shortcut_short_label"
+
+        android:shortcutLongLabel="@string/shortcut_short_label"
+        android:shortcutDisabledMessage="@string/message"
+        android:enabled="true"
+        android:icon="@drawable/baseline_add_24"
+        >
+
+        <intent
+            android:targetClass="br.com.raulreis.shortcut.MainActivity"
+            android:targetPackage="br.com.raulreis.shortcut"
+            android:action="br.com.raulreis.shortcut.ADD_FAVORITE" />
+
+    </shortcut>
+
+</shortcuts>
